@@ -3,15 +3,65 @@ html body {
 	background-color: #ecedd5;
 }
 
+.body {
+	background-image: url(bkgd.jpg);
+	color: rgb(73, 20, 67);
+}
+
+.title {
+	text-align: center;
+	font-size: 5vw;
+}
+
+.head {
+	padding: 0%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5vw;
+	font-size: 3vw;
+}
+
+.back {
+	width: 100%;
+	height: 15vh;
+	position: relative;
+}
+
+.top {
+	margin: 0%;
+	width: 100%;
+	height: 15vh;
+	background-color: rgba(171, 231, 156, 0.863);
+	filter: blur(2px);
+	border-bottom: 5px solid seashell;
+	position: absolute;
+}
+
+.ttop {
+	padding-top: 2.5vh;
+	margin-top: 0%;
+}
+
 header {
+	text-align: center;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+.under {
+	text-align: center;
+	font-size: 1.5vw;
 	padding-left: 40px;
 	padding-top: 20px;
 }
 
 .vendor-wrapper {
+	background-color: royalblue;
 	justify-content: left;
 	padding-left: 40px;
-	padding-top: 20px;
+	/* padding-top: 10vh; */
 	padding-bottom: 20px;
 }
 
@@ -25,31 +75,51 @@ header {
 	font-size: 2em;
 }
 
-.content-pane {
-  padding: 40px;
+.one,
+.two,
+.three,
+.four {
+	background-color: seagreen;
+	font-size: 1.5vw;
+	padding: 3vw;
+	padding-right: 2.5vw;
+	width: 50vw;
+	height: 42vh;
 }
 
-.fa-stack[data-count]:after{
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  content: attr(data-count);
-  font-size: 40%;
-  padding: .6em;
-  border-radius: 999px;
-  line-height: .75em;
-  color: white;
-  color: #DF0000;
-  text-align: center;
-  min-width: 2em;
-  font-weight: bold;
-  background: white;
-  border-style: solid;
+.content-pane {
+	padding: 40px;
+}
+
+.fa-stack[data-count]:after {
+	position: absolute;
+	right: 100%;
+	top: 0%;
+	content: attr(data-count);
+	font-size: 40%;
+	padding: 0.6em;
+	border-radius: 999px;
+	line-height: 0.75em;
+	color: white;
+	color: rgb(64, 87, 58);
+	text-align: center;
+	min-width: 2em;
+	font-weight: bold;
+	background: white;
+	border-style: solid;
+	margin-left: 100%;
 }
 .fa-circle {
-  color: #DF0000;
+	color: rgb(64, 87, 58);
 }
 
 .red-cart {
-	color: #DF0000;
+	color: rgb(64, 87, 58);
+}
+
+.cart {
+	background-color: rgb(230, 95, 162);
+	width: 7vw;
+	height: 8.5vh;
+	border-radius: 2vw;
 }
