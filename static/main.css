@@ -8,6 +8,10 @@ html body {
 	color: rgb(73, 20, 67);
 }
 
+.bbody {
+	background-image: url(https://mk-website-media.s3.amazonaws.com/wp-content/uploads/2018/10/18225714/Wallpaper-MuffinMani_TeepeeCactus_1-1100x1318.jpg);
+}
+
 .title {
 	text-align: center;
 	font-size: 5vw;
@@ -48,6 +52,12 @@ header {
 	text-align: center;
 	padding-left: 40px;
 	padding-top: 20px;
+	background-color: rgba(124, 228, 223, 0.836);
+	border-bottom: 1vw solid rgb(236, 153, 132);
+}
+
+.hhead {
+	padding-bottom: 2vw;
 }
 
 .under {
@@ -58,10 +68,9 @@ header {
 }
 
 .vendor-wrapper {
-	background-color: royalblue;
 	justify-content: left;
 	padding-left: 40px;
-	/* padding-top: 10vh; */
+	padding-top: 10vh;
 	padding-bottom: 20px;
 }
 
@@ -79,12 +88,23 @@ header {
 .two,
 .three,
 .four {
-	background-color: seagreen;
-	font-size: 1.5vw;
-	padding: 3vw;
-	padding-right: 2.5vw;
-	width: 50vw;
+	background-color: rgba(118, 199, 129, 0.925);
+	width: 35vw;
 	height: 42vh;
+	padding-left: 5vw;
+	padding-top: 5vw;
+	margin: auto;
+	border: 1vw solid white;
+}
+
+.onee {
+	background-color: rgba(124, 228, 223, 0.836);
+	width: 35vw;
+	height: 42vh;
+	padding-left: 3vw;
+	padding-top: 3vw;
+	border: 1vw solid rgb(236, 153, 132);
+	margin: auto;
 }
 
 .content-pane {
@@ -101,7 +121,7 @@ header {
 	border-radius: 999px;
 	line-height: 0.75em;
 	color: white;
-	color: rgb(64, 87, 58);
+	color: rgb(255, 0, 0);
 	text-align: center;
 	min-width: 2em;
 	font-weight: bold;
@@ -110,16 +130,20 @@ header {
 	margin-left: 100%;
 }
 .fa-circle {
-	color: rgb(64, 87, 58);
+	color: rgb(255, 0, 0);
 }
 
 .red-cart {
-	color: rgb(64, 87, 58);
+	color: rgb(255, 0, 0);
 }
 
 .cart {
-	background-color: rgb(230, 95, 162);
-	width: 7vw;
-	height: 8.5vh;
+	background-color: rgba(245, 181, 213, 0.61);
+	width: 120px;
+	height: 60px;
 	border-radius: 2vw;
+}
+
+.write {
+	font-size: 1.5vw;
 }
